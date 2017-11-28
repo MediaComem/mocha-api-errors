@@ -1,6 +1,6 @@
 # mocha-api-errors
 
-Print full API responses in your [Mocha][https://mochajs.org] tests when you get an unexpected response.
+Print full API responses in your [Mocha](https://mochajs.org) tests when you get an unexpected response.
 
 [![npm version](https://badge.fury.io/js/mocha-api-errors.svg)](https://badge.fury.io/js/mocha-api-errors)
 [![Build Status](https://travis-ci.org/MediaComem/mocha-api-errors.svg?branch=master)](https://travis-ci.org/MediaComem/mocha-api-errors)
