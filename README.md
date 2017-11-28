@@ -3,6 +3,7 @@
 Print full API responses in your [Mocha](https://mochajs.org) tests when you get an unexpected response.
 
 [![npm version](https://badge.fury.io/js/mocha-api-errors.svg)](https://badge.fury.io/js/mocha-api-errors)
+[![Dependency Status](https://gemnasium.com/badges/github.com/MediaComem/mocha-api-errors.svg)](https://gemnasium.com/github.com/MediaComem/mocha-api-errors)
 [![Build Status](https://travis-ci.org/MediaComem/mocha-api-errors.svg?branch=master)](https://travis-ci.org/MediaComem/mocha-api-errors)
 [![Coverage Status](https://coveralls.io/repos/github/MediaComem/mocha-api-errors/badge.svg?branch=master)](https://coveralls.io/github/MediaComem/mocha-api-errors?branch=master)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
