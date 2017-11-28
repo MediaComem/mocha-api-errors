@@ -1,0 +1,52 @@
+{
+  "name": "mocha-api-errors",
+  "version": "1.0.0",
+  "description": "Print full API responses in your Mocha tests when you get an unexpected responses.",
+  "main": "index.js",
+  "scripts": {
+    "doctoc": "doctoc --notitle --github README.md",
+    "test": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha spec/**/*.js",
+    "test:coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MediaComem/mocha-api-errors.git"
+  },
+  "keywords": [
+    "mocha",
+    "api",
+    "errors"
+  ],
+  "author": "Media Engineering Institute <mei@heig-vd.ch> (mei.heig-vd.ch)",
+  "contributors": [
+    "Simon Oulevay <npm@alphahydrae.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MediaComem/mocha-api-errors/issues"
+  },
+  "homepage": "https://github.com/MediaComem/mocha-api-errors#readme",
+  "files": [
+    "index.js",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "dependencies": {
+    "enrich-api-error": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "cross-env": "^5.1.1",
+    "doctoc": "^1.3.0",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "sinon": "^4.1.2"
+  },
+  "peerDependencies": {
+    "mocha": "^4.0.0"
+  }
+}
