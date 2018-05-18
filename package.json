@@ -1,6 +1,6 @@
 {
   "name": "mocha-api-errors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Print full API responses in your Mocha tests when you get an unexpected responses.",
   "main": "index.js",
   "scripts": {
